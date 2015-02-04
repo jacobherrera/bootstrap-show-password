@@ -69,6 +69,7 @@
             [placementFuc](this.$element)
             .attr('class', this.$element.attr('class'))
             .attr('placeholder', this.$element.attr('placeholder'))
+            .attr('readonly', this.$element.attr('readonly'))
             .css('display', this.$element.css('display'))
             .val(this.$element.val()).hide();
 
